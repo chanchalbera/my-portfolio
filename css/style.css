@@ -82,7 +82,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 32px;
+    padding: 12px;
     z-index: 10;
 }
 .aside .nav-toggler.open span{

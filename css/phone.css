@@ -164,7 +164,7 @@
         font-size: 14px;
     }
 }
-@media(max-width:380px){
+@media(max-width:390px){
     .aside ul li a{
         font-size: 12px;
     }
@@ -187,5 +187,20 @@
     .nav-toggler{
         height:32px;
         width: 34px;
+    }
+    .about-content .personal-info .info-item span{
+        font-size: 12px;
+    }
+    .about .about-content .skills .skill-item h4 {
+        line-height: 27px;
+        font-size: 12px;
+    }
+    .about .about-content .skills .skill-item .progress .skill-percent {
+        
+        line-height: 51px;
+        font-size: 14px;
+    }
+    .about-content .personal-info .info-item p{
+        overflow: scroll;
     }
 }
