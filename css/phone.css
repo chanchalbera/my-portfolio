@@ -104,6 +104,9 @@
         /* margin-top: 70px; */
         text-align: center;
     }
+    .about-content .personal-info .info-item p{
+        overflow: scroll;
+    }
 }
 
 @media (max-width:620px) {
@@ -193,14 +196,12 @@
     }
     .about .about-content .skills .skill-item h4 {
         line-height: 27px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .about .about-content .skills .skill-item .progress .skill-percent {
         
         line-height: 51px;
-        font-size: 14px;
+        font-size: 10px;
     }
-    .about-content .personal-info .info-item p{
-        overflow: scroll;
-    }
+  
 }

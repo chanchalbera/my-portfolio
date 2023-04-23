@@ -577,6 +577,15 @@ ul li i {
     color: var(--text-black-700);
 }
 
+.about .about-content .timeline .education-location{
+
+    box-shadow: 4px 5px 2px 0px;
+}
+.about .about-content .timeline .education-location:hover{
+    background-color: rgb(48, 48, 185);
+    color: white;
+}
+
 /* service section */
 .section .container {
     margin-bottom: 0px;

@@ -4,12 +4,23 @@ styleSwitcherToggle.addEventListener("click", () => {
     document.querySelector(".style-switcher").classList.toggle("open");
 })
 //  hide style switcher on scroll
-window.addEventListener("scroll", () => {
+const hidethemes = document.querySelector(".main-container");
+hidethemes.addEventListener("click",()=>{
     if (document.querySelector(".style-switcher").classList.contains("open")) {
 
         document.querySelector(".style-switcher").classList.remove("open");
     }
+
 })
+// Currently this function not work properly, so I Comment out this code 
+
+// window.addEventListener("scroll", () => {
+//     if (document.querySelector(".style-switcher").classList.contains("open")) {
+
+//         document.querySelector(".style-switcher").classList.remove("open");
+//     }
+// })
+
 
 // theme colors
 const alernateStyles = document.querySelectorAll(".alternate-style");
